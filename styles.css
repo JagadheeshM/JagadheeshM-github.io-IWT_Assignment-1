@@ -1,0 +1,154 @@
+*{
+  scroll-behavior: smooth;
+  font-family: "Times New Roman", Times, serif;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin:auto;
+  text-align: center;
+}
+div nav .active{
+  color: white;
+  background-color: rgb(254, 173, 186);
+  margin: 2px 5px;
+  border: 2px solid rgb(255, 123, 145);
+  border-radius: 5px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  scroll-behavior:hidden;
+}
+.sidenav h2{
+  padding: 0px 1px;
+
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#img2{
+  float:right;
+  border: 2px solid pink;
+  border-radius: 15px;
+}
+#img2:hover{
+  width: 250px;
+}
+table{
+  margin: auto;
+  align-items: center;
+  border-radius: 25px;
+}
+table,th,td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th{
+  text-align: left;
+  background-color: rgb(253, 144, 162);
+  padding: 10px 10px 10px 22px;
+}
+td{
+  padding: 10px 10px 10px 22px;
+  width: 200px; 
+  background-color: pink;
+}
+a:hover{
+  color: #000000;
+  background-color:#f1f1f1;
+  margin: 2px 5px;
+  border: 2px solid rgb(255, 123, 145);
+  border-radius: 5px;
+}
+#name{
+  color: #f1f1f1;
+}
+
+div h1{
+  margin: 1px;
+  border: 2px solid rgb(255, 133, 153)  ;
+  border-radius: 12px;
+  padding: 20px 0px 20px 260px ;
+  background-color: pink;
+  color: #f1f1f1;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  background-color: transparent;
+}
+::-webkit-scrollbar {
+  width: 3px !important;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+section{
+  height: 200px;
+  padding: auto;  
+  display: table-cell;
+}
+section div img{
+  width: 50px;
+  padding: 20px;
+}
+section a,input{
+  text-decoration: none;
+  padding: 5px;
+  background-color: pink;
+  color: white;
+  border: 2px solid rgb(253, 127, 169);
+  border-radius: 12px;
+  margin: 2px 10px;
+}
+input{
+  margin: 20px 500px;
+  padding: 20px 50px;
+}
+
+section a:hover,input:hover{
+  text-decoration: none;
+  padding: 7px;
+  background-color: rgb(127, 207, 253);
+  color: white;
+  border: 2px solid rgb(65, 183, 252);
+  border-radius: 12px;
+  cursor: pointer;
+}
+input:hover{
+  margin: 20px 500px;
+  padding: 20px 50px;
+}
+#home{
+  margin: 25px;
+  border: 2px solid black;
+  padding: 25px;
+  border-radius: 20px;
+}
